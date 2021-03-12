@@ -3,6 +3,6 @@
     <name>zendldap4</name>
     <summary>Esborra l'entrada de l'usuari usr3 creat amb zendldap2</summary>
     <version>
-        <release>1.0.0</release>
+        <release>1.0.1</release>
     </version>
     </package>

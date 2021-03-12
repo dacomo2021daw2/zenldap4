@@ -25,6 +25,10 @@
 	#
 	$ldap = new Ldap($opcions);
 	$ldap->bind();
-	if ($ldap->delete($dn))	echo "<b>Entrada esborrada</b><br>"; 
-	else echo "<b>Aquesta entrada no existeix</b><br>";	
+	try{
+	    $ldap->delete($dn);
+	    echo "<b>Entrada esborrada</b><br>"; 
+	} catch (Exception $e){
+	   echo "<b>Aquesta entrada no existeix</b><br>";
+	}
 ?>
