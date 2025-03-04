@@ -9,16 +9,16 @@
 	#
 	$uid = 'usr3';
 	$unorg = 'usuaris';
-	$dn = 'uid='.$uid.',ou='.$unorg.',dc=fjeclot,dc=net';
+	$dn = 'uid='.$uid.',ou='.$unorg.',dc=clotfje,dc=net';
 	#
 	#Opcions de la connexió al servidor i base de dades LDAP
 	$opcions = [
-		'host' => 'zend-dacomo.fjeclot.net',
-		'username' => 'cn=admin,dc=fjeclot,dc=net',
+		'host' => 'zend-dacomo.clotfje.net',
+		'username' => 'cn=admin,dc=clotfje,dc=net',
 		'password' => 'fjeclot',
 		'bindRequiresDn' => true,
-		'accountDomainName' => 'fjeclot.net',
-		'baseDn' => 'dc=fjeclot,dc=net',		
+		'accountDomainName' => 'clotfje.net',
+		'baseDn' => 'dc=clotfje,dc=net',		
 	];
 	#
 	# Esborrant l'entrada
